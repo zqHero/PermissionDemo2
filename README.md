@@ -263,4 +263,5 @@ over。
 
 楼主对activity进行了权限请求的封装，需要请求权限的可以直接拿走，修改需要请求的权限即可。。
 
-github：
+csdn:
+http://blog.csdn.net/u013233097/article/details/70174230
