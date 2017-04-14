@@ -55,11 +55,12 @@
 ###3，google 官方的介绍：
 	官方运行时demo：https://github.com/bonaparteI/android-RuntimePermissions-master
 ####1,官方demo中  ：
-		先看效果图 （以下为我翻译后的界面）：
+先看效果图 （以下为我翻译后的界面）：
+
 ![这里写图片描述](http://img.blog.csdn.net/20170414161929287?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  ![这里写图片描述](http://img.blog.csdn.net/20170414161944240?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-		google官方的demo 还是比较不错的。但对于权限的处理。我感觉还是不够完善。当我们碰到适配问题时就暴露无疑。
-		比如小米对于 shouldShowRequestPermissionRationale方法 的处理。
+	google官方的demo 还是比较不错的。但对于权限的处理。我感觉还是不够完善。当我们碰到适配问题时就暴露无疑。
+	比如小米对于 shouldShowRequestPermissionRationale方法 的处理。
 
 	若按照google的处理方式：处理显然不够完善。
 
@@ -67,7 +68,7 @@
 
 	先看效果图：左边是直接请求权限的处理方式，右边是对权限先做检查后做处理的方式。
 
- ![这里写图片描述](http://img.blog.csdn.net/20170414163117468?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  ![这里写图片描述](http://img.blog.csdn.net/20170414162935387?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](http://img.blog.csdn.net/20170414163117468?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  ![这里写图片描述](http://img.blog.csdn.net/20170414162935387?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 ####5 逻辑说明：
 
@@ -254,7 +255,7 @@
     showMissingPermissionDialog();
 
 
-	小米手机返回图片截图：
+小米手机返回图片截图：
 
 ![这里写图片描述](http://img.blog.csdn.net/20170414165042255?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)![这里写图片描述](http://img.blog.csdn.net/20170414165052662?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvdTAxMzIzMzA5Nw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
